@@ -16,3 +16,7 @@ fisher install dynamo-make-color/fish-t
 ```
 
 ## Usage
+| Sub command   | Purpose                                                                 |
+|---------------|-------------------------------------------------------------------------|
+| license       | List all available templates of LICENSE file                            |
+| license [key] | Generate LICENSE file in current folder by a key, see above sub-command |
