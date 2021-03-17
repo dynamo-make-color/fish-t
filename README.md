@@ -16,7 +16,9 @@ fisher install dynamo-make-color/fish-t
 ```
 
 ## Usage
-| Sub command   | Purpose                                                                 |
-|---------------|-------------------------------------------------------------------------|
-| license       | List all available templates of LICENSE file                            |
-| license [key] | Generate LICENSE file in current folder by a key, see above sub-command |
+| Sub command                              | Purpose                                                                                              |
+|------------------------------------------|------------------------------------------------------------------------------------------------------|
+| license                                  | List all available templates of LICENSE file                                                         |
+| license [key]                            | Generate LICENSE file in current folder by a key, see above sub-command                              |
+| gi, gitignore                            | List template of .gitignore from gitignore.io                                                        |
+| git [key,key...], gitignore [key,key...] | Generate .gitignore file in current folder by list of keys, separate by comma, see above sub-command |

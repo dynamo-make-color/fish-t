@@ -10,6 +10,8 @@ function t -d "Create template from some useful resources"
     switch $argv[1]
       case "license"
         __t_license $argv[2]
+      case "gi" "gitignore"
+        __t_gitignore $argv[2]
       case "*"
         __t_usage
         return 1
